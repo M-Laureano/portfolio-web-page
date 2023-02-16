@@ -1,45 +1,42 @@
 html {
   height: 100%;
-  width: 100%;
-}
+  width: 100%;  }
 body {
-  text-align: center;
-  background-color:black;
-  opacity:.8;
-  color: white;
-}
+    text-align: center;
+    background-color:black;
+    color: white;
+    width: auto;
+    height: auto;
+    align-items: center;
+    background-size: 100% 100%;
+    background-image: radial-gradient(circle at center, #98636B 0, #BE813E, #7A7F69,#302B3F ,black);
+  }
+header {
+  width: auto;
+  height: auto;
+  }
+
 main {
-      background-color:transparent;
+      background-color: rgba(0, 0, 0, .5) ;
       color: white;
       font-size: 20px;
       margin: auto;
-      width: auto;
+      width: 600px;
       height: auto;
       text-align: center;
       padding: 10px;
-      
-      
-     
+
     }
-  body {
-    width: 100%;
-    height: 100vh;
-    /*display: flex;justify-content: center;*/
-    align-items: center;
-    
-    background-size: 300% 300%;
-    background-image: linear-gradient(
-          -45deg, 
-          rgba(59,173,227,1) 0%, 
-          rgba(87,111,230,1) 25%, 
-          rgba(152,68,183,1) 51%, 
-          rgba(255,53,127,1) 100%
-    );  
-    animation: AnimateBG 20s ease infinite;
-  }
+
+div {
+  color: black;
+  text-align: center;
+  background-image: url(https://cdn.vanderbilt.edu/vu-news/files/20190417213422/Communication-Skills-workshop.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  list-style-position: inside;
+}
+
+
   
-  @keyframes AnimateBG { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-  }
+
