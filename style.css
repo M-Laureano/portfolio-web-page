@@ -29,6 +29,12 @@ main {
 
     }
 
+article {
+  color: black;
+  text-align: center;
+  list-style-position: inside;
+}
+
 div {
   color: black;
   text-align: center;
@@ -37,12 +43,5 @@ div {
   background-position: center;
   list-style-position: inside;
 }
-
-article {
-  color: black;
-  text-align: center;
-  list-style-position: inside;
-}
-
   
 
