@@ -10,6 +10,7 @@ body {
     align-items: center;
     background-size: 100% 100%;
     background-image: radial-gradient(circle at center, #98636B 0, #BE813E, #7A7F69,#302B3F ,black);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 header {
   width: auto;
@@ -30,7 +31,7 @@ main {
     }
 
 article {
-  color: black;
+  color: white;
   text-align: center;
   list-style-position: inside;
 }
